@@ -1,0 +1,15 @@
+include::00_header.adoc[]
+
+= Provocation engine
+
+== Introduction
+
+The Provocation Engine is a simple ideation tool that shows provocative arguments to help users think out of the box. The application was prototyped and tested during the Namahn 2018 Summer Camp.​ 
+
+The Provocation Engine has a public-facing home page and a management interface. 
+
+include::public.adoc[leveloffset=+1]
+
+include::admin.adoc[leveloffset=+1]
+
+include::components.adoc[leveloffset=+1]

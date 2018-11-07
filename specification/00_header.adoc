@@ -1,0 +1,36 @@
+:doctype: book
+:toc: left
+:toclevels: 4
+:numbered:
+:pdf-page-size: A4
+:sectanchors:
+:sectnumlevels: 5
+:source-highlighter: rouge
+ifdef::backend-html5[]
+:full-width: width='100%'
+:wide: width='80%', align='center'
+:half-width: width='50%', align='center'
+:half-size:
+:thumbnail: width='60'
+endif::[]
+ifdef::backend-pdf[]
+:full-width: pdfwidth='100vw'
+:wide: pdfwidth='80vw', align='center'
+:half-width: pdfwidth='50vw', align='center'
+:half-size: pdfwidth='50%'
+:thumbnail: pdfwidth='20mm'
+endif::[]
+ifdef::backend-docbook5[]
+:full-width: scaledwidth='100%'
+:wide: scaledwidth='80%', align='center'
+:half-width: scaledwidth='50%', align='center'
+:half-size: width='50%'
+:thumbnail: width='20mm'
+endif::[]
+:icons: font
+:caution-caption: :fire:
+:important-caption: :exclamation:
+:note-caption: :paperclip:
+:tip-caption: :bulb:
+:warning-caption: :warning:
+:experimental:

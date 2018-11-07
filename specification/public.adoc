@@ -1,0 +1,21 @@
+include::00_header.adoc[]
+
+= Public-facing home page
+
+== Conceptual design
+
+The public-facing home page is available to all users. No login is necessary. 
+
+.Public-facing home page of the Provocation Engine
+image::images/home-concept.png[{wide}]
+
+The public-facing home page contains the following elements:
+
+* *Page title*: tells users they are visiting the Provocation Engine. The page title could be text and/or a logo.
+* *Provocation message*: a two-line message. When the user first visits the public-facing home page, no provocation message is shown. 
+* *Action button*: a button with the label _Provoke me_. Clicking the action button shows a random provocation message. 
+* *Namahn link*: indicates that the Provocation Engine is "Powered by Namahn".
+* *Feedback*: an <<components.adoc#inpage,in-page feedback>> component.
+* *Share buttons*: a number of buttons to share the Provocation Engine public-facing home page on social media. 
+
+WARNING: need to find out what channels to share to -- Twitter, Facebook, LinkedIn?, other?
