@@ -26,3 +26,11 @@ When the users enters an incorrect name and/or password, the login page advises 
 .Login: error message
 image::images/login-error-concept.png[{half-width}]
 
+== Messages page
+
+The messages page allows an authenticated user to create new messages, and edit and delete existing messages.
+
+.Message page
+image::images/messages-concept.png[{wide}]
+
+The messages page consists of a <<main menu>> and a 
