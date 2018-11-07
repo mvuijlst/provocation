@@ -29,3 +29,43 @@ The in-page feedback component has three states:
 Only the last selected _feedback option_ in any give session is permanently stored in the application, i.e. when a user selects the "positive" feedback option, then changes her ming and selects the "meh" feedback option and even later the "negative" feedback option in the same session, only the "negative" option is recorded. 
 
 When the user selects one of the three __feedback option__s and then selects the _close button_, a subsequent selection of the action button on the _closed state_ will show the _open state_ with the previously selected _feedback option_ selected.
+
+
+[[mainmenu]]
+== Main menu
+
+The main menu appears once a user is authenticated. It contains navigation items and a way to log out.
+
+=== Conceptual design
+
+.Main menu
+image::images/mainmenu-concept.png[{wide}]
+
+It's pretty straightforward, yo. 
+
+
+[[table]]
+== Table
+
+A table is used to show tabular data. 
+
+=== Conceptual design
+
+.Table
+image::images/table-concept.png[{wide}]
+
+A table has rows and columns. There may be a header row too. 
+
+
+[[modalpopup]]
+== Modal pop-up window
+
+A modal pop-up window appears in a lightbox etc. 
+
+=== Conceptual design
+
+.Modal pop-up window
+image::images/messages-add-concept.png[{wide}]
+
+It's modal. 
+

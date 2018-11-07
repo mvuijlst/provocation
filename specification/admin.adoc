@@ -51,7 +51,7 @@ The table contains the following columns:
 
 ==== Creating, editing and deleting messages
 
-To *create a new message*, the user clicks the *Create message* primary action button. A <<components.adoc#modalwindow,modal window>> opens, which contains the following:
+To *create a new message*, the user clicks the *Create message* primary action button. A modal pop-up opens, which contains the following:
 
 * a *window header*, containing:
 ** a *window title*, "New message"
@@ -60,6 +60,9 @@ To *create a new message*, the user clicks the *Create message* primary action b
 * two plain text *form fields*:
 ** *Line 1*: the first line of the new message, at most 40 characters long.
 ** *Line 2*: the second line of the new message, at most 100 characters long.
+
+.Adding a new message.
+image::images/messages-add-concept.png[{wide}]
 
 To *edit a message*, the user clicks the text in a row (either Line 1 or Line 2). The row is then outlined and _cancel_ and _Save_ links are added to the row. Both Line 1 and Line 2 for that row can  be edited in place. To cancel the edit and revert to what the row was before editing, the user clicks the _cancel_ link. To save the edit, the user can either click the _Save_ link, or click anywhere outside Line 1 and Line 2.
 
@@ -72,7 +75,7 @@ To *delete one or more messages*, the user selects one or more rows in the messa
 
 === Conceptual design 
 
-The feedback page allows an authenticated user to vieew collected feedback, and export and delete feedback items. A feedback item consists of a timestamp, feedback (positive, meh or negative), and optional additional plain text feedback. 
+The feedback page allows an authenticated user to view collected feedback, and export and delete feedback items. A feedback item consists of a timestamp, feedback (positive, meh or negative), and optional additional plain text feedback. 
 
 .Feedback page
 image::images/feedback-concept.png[{wide}]
@@ -81,8 +84,16 @@ The feedback page consists of:
 
 * a *<<components.adoc#mainmenu,main menu>>*
 * a *page title*, "Feedback"
-* a *<<components.adoc#barchart, bar chart>>* showing the total feedback at a glance
+* a *bar chart* showing the total feedback at a glance
 * a *<<components.adoc#table, table>>* showing all feedback, with two **action button**s, "Export" and "Delete"
+
+==== Bar chart
+
+The bar chart shows the absolute totals and percentage values for positive, meh and negative feedback. 
+
+.Bar chart
+image::images/barchart-concept.png[{half-width}]
+
 
 ==== Feedback table
 
