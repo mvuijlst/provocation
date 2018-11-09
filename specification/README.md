@@ -1,7 +1,7 @@
 # What's new
 
 * 9 Nov 2018
-    * Added "Find out more" to [Public-facing home page](public.adoc)
+    * Added "Find out more" to [Public-facing home page](public.adoc) and in html
     * Shuffled files around, included requirements in design document.
     * Added preliminary version of requirements ([database](database.adoc) and [api](api.adoc))
 

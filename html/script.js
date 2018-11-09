@@ -47,6 +47,12 @@ document.addEventListener("DOMContentLoaded", function () {
         hide("feedbackform");
         show("feedbackbutton");
     });
+    document.getElementById("closeexplanation").addEventListener("click", function () {
+        hide("explanation");
+    });
+    document.getElementById("showExplanation").addEventListener("click", function () {
+        show("explanation");
+    });
 });
 
 
