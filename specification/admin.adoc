@@ -6,7 +6,7 @@ The Provocation Engine has a password-protected management interface.
 
 The management interface consists of three pages: the login page, the messages page and the feedback page. 
 
-== Login page lalala
+== Login page
 
 When non-authenticated users attempts to visit any management interface page, they are shown the login page. 
 
