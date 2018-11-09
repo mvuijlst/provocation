@@ -1,0 +1,14 @@
+include::00_header.adoc[]
+
+= Database
+
+* *tblMessages*: holds the messages
+** *id*: unique ID
+** *line1*: max. 40 alphanumeric characters
+** *line2*: max. 100 alphanumaric characters
+
+* *tblFeedback*: holds feedback from visitor
+** *id*: unique ID
+** *timestamp*: date/time
+** *feedback*: one character, indicating positive, meh or negative feedback
+** *extended*: alphanumeric text

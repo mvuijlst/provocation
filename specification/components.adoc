@@ -41,8 +41,13 @@ The main menu appears once a user is authenticated. It contains navigation items
 .Main menu
 image::images/mainmenu-concept.png[{wide}]
 
-It's pretty straightforward, yo. 
+The main menu for the management interface contains:
 
+* a *logo* or *branding element* for the Provication Engine
+* *links* to the different sections ("Messages" and "Feedback")
+* a *log out* link
+
+The main menu stays at the top of the screen at all times. 
 
 [[table]]
 == Table
