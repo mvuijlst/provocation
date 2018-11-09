@@ -15,6 +15,7 @@ The public-facing home page contains the following elements:
 * *Provocation message*: a two-line message. When the user first visits the public-facing home page, no provocation message is shown. 
 * *Action button*: a button with the label _Provoke me_. Clicking the action button shows a random provocation message. 
 * *Namahn link*: indicates that the Provocation Engine is "Powered by Namahn".
+* *Find out more*: a link to show an overlay explaining the theory behind the Provocation Engine and how to use it.
 * *Feedback*: an <<components.adoc#inpage,in-page feedback>> component.
 * *Share buttons*: a number of buttons to share the Provocation Engine public-facing home page on social media. 
 

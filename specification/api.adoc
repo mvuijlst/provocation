@@ -4,7 +4,7 @@ include::00_header.adoc[]
 
 == GetMessages
 
-A GET request to /api/messages returns a list of all messages@. 
+A GET request to /api/messages returns a list of all messages. 
 
 Request:
 
@@ -76,7 +76,7 @@ Request:
   }
 
 
-Respons bij succes:
+Response if succesful:
 
   Status: 201 Created
   Content-Type: application/json

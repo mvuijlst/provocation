@@ -1,6 +1,6 @@
 var messages = ["Atlantis|Brussels is a city underwater",
     "Back to the future|The year is now 2106, but the issue remains. How do you intervene?",
-    "Belgium is a city|Extreme urbanisation has turned the country into an endless city",
+    "Belgium is a city|Extreme urbanization has turned the country into an endless city",
     "Blast from the past|Do it like it's 1921",
     "Blindness|A terrible disease has caused everyone to go blind",
     "Brussels, Sahara desert|Brussels is a city in the middle of the Sahara desert",
