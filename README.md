@@ -1,12 +1,14 @@
 # Provocation engine
 
-A knoman project at [Namahn](http://www.namahn.com). 
+A knoman project at [Namahn](http://www.namahn.com).
 
 ## Input
+
 * [Briefing](briefing.adoc)
 * [Current version](https://codepen.io/stmn/full/oPxgLr)
 
 ## Deliverables
+
 * [Preliminary Axure file](https://itmu7i.axshare.com/)
 * [Design document](specification/design.adoc)
 
@@ -14,20 +16,20 @@ A knoman project at [Namahn](http://www.namahn.com).
 
 Get a local copy of this repository:
 
-```
+```[]
 git clone https://github.com/mvuijlst/provocation.git
 ```
 
 Get loopback and run it in the `api` folder.
 
-```
+```[]
 npm install -g loopback-cli
 node .
 ```
 
 Run an http server in the `html` folder, e.g.
 
-```
+```[]
 npm install -g http-server
 http-server
 ```

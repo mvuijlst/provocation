@@ -16,7 +16,9 @@ include::admin.adoc[leveloffset=+2]
 
 include::components.adoc[leveloffset=+2]
 
-== Requirements
+include::reqs.adoc[leveloffset=+1]
+
+== Technical
 
 include::database.adoc[leveloffset=+2]
 
