@@ -6,7 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Admin</title>
-    <script src="script.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            document.getElementById("loginform").onsubmit = function (event) {
+                event.preventDefault();
+                if (document.getElementById("user").value == "provocation" && document.getElementById("pwd").value == "engine") {
+                    window.open("messages.html", "_self");
+                } else {
+                    document.getElementById("pwd").innerHTML = '';
+                    document.getElementById("errormessage").innerHTML = 'The username or password is incorrect. Try again or <a href="mailto:mvu@namahn.com">contact mvu</a> for help.';
+                }
+            }
+        });
+    </script>
 </head>
 
 <body>
