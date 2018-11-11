@@ -27,7 +27,7 @@ npm install -g loopback-cli
 node .
 ```
 
-Run an http server in the `html` folder, e.g.
+Run http server in the `html` folder, e.g.
 
 ```[]
 npm install -g http-server
