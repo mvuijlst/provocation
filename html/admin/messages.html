@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,20 +9,30 @@
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
 </head>
+
 <body>
     <nav>
         <h1>The Provocation Engine</h1>
-        <ul><li class="selected"><a href="messages.html">Messages</a></li>
-        <li><a href="feedback.html">Feedback</a></li></ul>
+        <ul>
+            <li class="selected"><a href="messages.html">Messages</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+        </ul>
         <p><a href="index.html">Logout</a></p>
     </nav>
     <main>
         <h2>Messages</h2>
         <p><button>Add new message</button> <button>Delete</button></p>
         <table>
-            <thead><tr><th><input id="selectAll" type="checkbox"></th><th>Line 1</th><th>Line 2</th></tr>
+            <thead>
+                <tr>
+                    <th><input id="selectAll" type="checkbox"></th>
+                    <th>Line 1</th>
+                    <th>Line 2</th>
+                </tr>
             </thead>
-            <tbody id="messageTable"></tbody></table>
+            <tbody id="messageTable"></tbody>
+        </table>
     </main>
 </body>
+
 </html>

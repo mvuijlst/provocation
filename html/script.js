@@ -7,7 +7,7 @@ var messages;
 // load messages from API; comment this and uncomment 
 // the line above to revert to the standard test messages
 var request = new XMLHttpRequest();
-request.open('GET', APIroot+'messages', true);
+request.open('GET', APIroot + 'messages', true);
 request.onload = function () {
     messages = JSON.parse(this.response);
 }
@@ -17,9 +17,12 @@ function getMsg() {
 
     if (messages.length) {
         var nbr = Math.floor(Math.random() * messages.length);
-        var msg = messages.splice(nbr,1)[0];
+        var msg = messages.splice(nbr, 1)[0];
     } else {
-        var msg = {"line1":"You have been provoked enough","line2":"Try your luck elsewhere"};
+        var msg = {
+            "line1": "You have been provoked enough",
+            "line2": "Try your luck elsewhere"
+        };
         hide("provokebutton");
     }
     document.getElementById("line1").innerHTML = msg["line1"];

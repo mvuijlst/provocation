@@ -13,7 +13,7 @@ function getMessages() {
             var cell2 = row.insertCell(2);
             var checkbox = document.createElement('input');
             checkbox.type = 'checkbox';
-            checkbox.id = 'cb'+message.id;
+            checkbox.id = 'cb' + message.id;
             cell0.appendChild(checkbox);
             cell1.appendChild(document.createTextNode(message.line1));
             cell2.appendChild(document.createTextNode(message.line2));
